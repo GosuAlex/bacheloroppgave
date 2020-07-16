@@ -1,0 +1,111 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.messageItemBox {
+  cursor: pointer;
+}
+
+.messageItemPadding {
+  padding: 10px;
+}
+
+.messageTitle {
+  color: black;
+  font-size: 1.5em;
+}
+
+.messageName {
+  color: grey;
+}
+
+.messageDate {
+  float: right;
+  color: grey;
+}
+
+.myMessagesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  grid-gap: 30px;
+}
+
+
+@media (max-width: 900px) { 
+  .myTeamsGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 30px;
+      grid-gap: 30px;
+  }
+} 
+
+.myMessagesItem {
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.userImageIcon {
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+  background-color: lightgrey;
+}
+
+/* SELECTED MESSAGE */
+
+.selectedMessageBox {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 80%;
+  margin-top: 30px;
+  padding: 20px;
+  border: solid 1px black;
+}
+
+.activeMessageTitle {
+  font-size: 2em;
+}
+
+.activeMessageDescription {
+  margin-top: 50px;
+  color: red;
+}
+
+/* BUTTONS */
+.createMessageButton {
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #0083cd;
+  color: white;
+}
+
+.deleteMessageButton {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ff493e;
+  color: white;
+}
+
+/*MEDIA QUERIES*/ 
+@media (max-width: 900px) { 
+  .myMessagesGrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 30px;
+      grid-gap: 30px;
+  }
+} 

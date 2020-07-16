@@ -1,0 +1,48 @@
+.profileBox {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@media (max-width: 1300px) {
+    .profileBox {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    } 
+  } 
+
+
+@media (max-width: 750px) {
+    .profileBox {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .profileContainer {
+        padding-top: 0px;
+    }
+ 
+  } 
+
+.profileSegment {
+    min-height: 700px;
+}
+
+.profileContainer {
+    padding: 30px;
+}
+
+.profileImage {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profileLogoutButton {
+
+}
+
+.bedriftBox {
+  padding-bottom: 5px;
+}

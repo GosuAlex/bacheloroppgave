@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Compile Remove="Migrations\20200213111904_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200213111904_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200213112911_StudentTableAdded.cs" />
+    <Compile Remove="Migrations\20200213112911_StudentTableAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200213115648_AddedSeed.cs" />
+    <Compile Remove="Migrations\20200213115648_AddedSeed.Designer.cs" />
+    <Compile Remove="Migrations\20200213115745_SeedDataAdded.cs" />
+    <Compile Remove="Migrations\20200213115745_SeedDataAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200213122511_testDb.cs" />
+    <Compile Remove="Migrations\20200213122511_testDb.Designer.cs" />
+    <Compile Remove="Migrations\20200213123257_ini.cs" />
+    <Compile Remove="Migrations\20200213123257_ini.Designer.cs" />
+    <Compile Remove="Migrations\20200313115003_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200313115003_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200513171231_NameChangeAppUserToUser.cs" />
+    <Compile Remove="Migrations\20200513171231_NameChangeAppUserToUser.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+</Project>

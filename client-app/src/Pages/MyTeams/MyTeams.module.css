@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.iconProfileImage {
+    width: 3em;
+    padding: 5px;
+}
+
+.memberBox {
+    padding-bottom: 5px;
+}
+
+.memberBox:hover {
+  cursor: pointer;
+  color: var(--color-font);
+  border-color: var(--color-blue-light);
+}
+
+.myTeamsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    grid-gap: 30px;
+}
+
+.teamInviteForm {
+    margin-top: 50px;
+}
+
+.selectedTeamCard {
+    margin-bottom: 12px;
+}
+
+.membersTitle {
+    font-size: 1.3em;
+}
+
+.inviteTeamMemberForm {
+    margin-top: 20px;
+}
+
+.myTeamsCloseBtn {
+    float: right;
+}
+
+.teamStatus2 {
+    float: right;
+    font-size: 0.5em;
+    color: white;
+    background-color: #f2711c;
+    padding: 0px 6px;
+    border-radius: 4px;
+}
+
+.teamStatus1 {
+    float: right;
+    font-size: 0.5em;
+    color: white;
+    background-color: #a333c8;
+    padding: 0px 6px;
+    border-radius: 4px;
+}
+.selectedTeamFooter {
+    margin-top: 7px;
+}
+
+
+/*MEDIA QUERIES*/ 
+
+@media (max-width: 900px) { 
+    .myTeamsGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        grid-gap: 30px;
+    }
+} 
+
+
+@media (max-width: 700px) { 
+    .myTeamsGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        grid-gap: 30px;
+    }
+} 

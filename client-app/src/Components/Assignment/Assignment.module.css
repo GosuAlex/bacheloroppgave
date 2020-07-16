@@ -1,0 +1,52 @@
+.selectedAssignmentContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px;
+  grid-gap: 30px;
+}
+
+@media (max-width: 1300px) {
+  .assignmentHeaderContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    grid-gap: 30px;
+    width: 50%;
+  }
+} 
+
+@media (max-width: 750px) {
+  .assignmentHeaderContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    grid-gap: 30px;
+    width: 100%;
+  }
+} 
+
+.container {
+ padding: 10px;
+}
+
+.react-datepicker {
+  border-radius: unset;
+}
+
+.assignmentStatusOpen {
+  float: right;
+  font-size: 0.5em;
+  color: white;
+  background-color: #21ba45;;
+  padding: 0px 6px;
+  border-radius: 4px;
+}
+
+.assignmentStatusClosed {
+  float: right;
+  font-size: 0.5em;
+  color: white;
+  background-color: lightgrey;
+  padding: 0px 6px;
+  border-radius: 4px;
+}

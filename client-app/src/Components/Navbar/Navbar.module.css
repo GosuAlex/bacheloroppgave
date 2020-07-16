@@ -1,0 +1,26 @@
+/* .fullNavbar {
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+@media (max-width: 400px) {
+  .fullNavbar {
+    display: none !important;
+    margin-top: 400px;
+  }
+} */
+
+.hamburger {
+  font-size: 3em !important;
+  position: sticky;
+  left: 20px;
+  transform: translate( 0, 60%);
+  color: black;
+}
+
+.hamburger:hover {
+  color: var(--color-blue);
+}

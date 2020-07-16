@@ -1,0 +1,99 @@
+.searchGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px;
+  grid-gap: 30px;
+}
+
+@media (max-width: 600px) { 
+  .searchGrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10px 0px;
+
+  }
+} 
+
+.searchOption {
+  border: 1px solid black;
+  height: 1000px;
+  width: 300px;
+  margin: 100px 30px;
+}
+
+.searchFilter {
+  /* margin: 30px 30px !important; */
+  padding: 30px 150px;
+}
+
+.iconProfileImage {
+  width: 3em;
+  padding: 5px;
+}
+
+.searchResults {
+  min-height: 1000px;
+  width: 70%;
+  margin: 30px 0px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(191,191,191,1);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(191,191,191,1);
+  box-shadow: 0px 0px 4px 1px rgba(191,191,191,1);
+}
+
+.segmentGroup {
+  padding: 10px;
+}
+
+.switchTab {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  all: unset;
+  padding: 10px;
+  font-size: 2em;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--color-font-grey);
+}
+
+.tab:hover {
+  /* border-bottom: 2px solid black; */
+  text-decoration: underline;
+  color: yellow;
+}
+
+.categoryIcon {
+  float: right;
+}
+
+.tabActive {
+ color: red;
+}
+
+.create {
+  margin-left: auto !important;
+  justify-self: flex-end !important;
+}
+
+.container {
+  background-color: white;
+}
+
+/* SearchList */
+
+
+.item {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 2em;
+}
