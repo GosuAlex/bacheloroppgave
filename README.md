@@ -1,6 +1,8 @@
-# Bacheloroppgave - 2020 - Universitetet i Sørøst-Norge (USN) - Bachelor i IT og Informasjonssystemer
+# Bacheloroppgave - 2020
+## Universitetet i Sørøst-Norge (USN)
+## Bachelor i IT og Informasjonssystemer
 
-## Members
+### Members
 
 Emre Olgun
 
@@ -13,12 +15,12 @@ Roy Alexander Daae
 Glenn Andre Parsons Halvorsen
 
 
-## Testbruker
+### Testbruker
 
 User: user@test.com
 Password: Admin1!
 
-## Info
+### Info
 
 asp.net core 3.1: API/
 
