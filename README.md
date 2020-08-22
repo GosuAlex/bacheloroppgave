@@ -15,11 +15,6 @@ Roy Alexander Daae
 Glenn Andre Parsons Halvorsen
 
 
-### Testbruker
-
-User: user@test.com
-Password: Admin1!
-
 ### Info
 
 asp.net core 3.1: API/
@@ -27,3 +22,8 @@ asp.net core 3.1: API/
 React: client-app/
 
 Rapport: Rapport Bacheloroppgave.docx
+
+
+### Frontpage screenshot
+
+![ScreenShot](/front_simple.png)
