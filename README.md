@@ -21,7 +21,7 @@ asp.net core 3.1: API/
 
 React: client-app/
 
-Rapport: Rapport Bacheloroppgave.docx
+Bachelor thesis: ![PDF](/Rapport_Bacheloroppgave.pdf)
 
 
 ### Frontpage screenshot
